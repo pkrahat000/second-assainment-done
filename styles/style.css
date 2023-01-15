@@ -1,0 +1,249 @@
+body{
+    display: flex;
+    align-items:center;
+    font-family: 'Work Sans', sans-serif;
+    flex-direction: column;
+    
+}
+.common-width{
+    width:950px;
+}
+.common-background-color{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 0px 100% 50px;
+}
+/*nav style*/
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav h3{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav a{
+    color: #424242;
+    font-size: 18px;
+    margin-left:40px;
+    text-decoration: none;
+}
+
+/*bannder style*/
+.banner-img{
+    background-image:url(../images/banner.png);
+    width: auto;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.banner h2{
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin: 24px 0px;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 15px 24px;
+}
+
+/*article style*/
+.article-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.article-contant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.article-img{
+    width: 242px;
+    height: 242px;
+    margin: 15px 30px 15px 0px;
+}
+.article-img img{
+    width:100%;
+    height:100%; 
+}
+.article-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 32px;
+}
+.article-title-one{
+    color: #727272;
+}
+.article-title-tow{
+    color: #FF900E;
+}
+.article-dech{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.article-button{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+
+/* Experiance section */
+.experiance{
+    display: flex;
+    margin-top: 100px;
+    gap: 50;
+}
+.experiance-title{
+    font-weight: 700;
+    font-size: 35px;
+    border-left: 2px solid #FF900E;
+    padding-left: 10px;
+
+}
+.experiance-dech{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.experiance-contant{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+.experiance-contant-title{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.experiance-contant-dech{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0px;
+    
+}
+.experiance-img {
+    width: 1408px;
+    height: 1045px;
+}
+.experiance-img img{
+    width: 100%;
+    height: 100%;
+}
+.experiance-button-contant{
+    text-align: center;
+    margin-top: 40px;
+}
+.experiance-button{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 12px 20px;
+}
+.experiance-button span{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* some facts style */
+.some-facts-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #131313;
+    margin: 100px 0px 24px 0px;
+}
+.some-facts-icon-contant{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.some-facts-icon{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: center;
+}
+.some-facts-icon:hover{
+    border: 2px solid rgb(0, 247, 255);
+    transform: scale(0.9);
+    background-color: #ffeeee;
+}
+
+/* Our Sponspors */
+.our-sponspors-info{
+    text-align: center;
+}
+.our-sponspors-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 53px;
+    color: #131313;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.our-sponspors-logo img{
+    margin:40px 0px 100px 50px;
+    width: 120px;
+    text-align: center;
+}
+
+/*subscription style*/
+.subscription{
+    background: #FFF4E7;
+    padding: 10px 50px;
+    text-align: center;
+    
+}
+.subscription h3{
+    font-size: 30px;
+    color: rgb(233, 60, 60);
+    border: 1px solid yellowgreen;
+    padding: 50px 50px;
+    background-color: #e4e4e4;
+    
+}
+.subscription input{
+    color: rgb(233, 60, 60);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    
+
+}
+
+/* copyright */
+.copyright{
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 200px;
+}
+
