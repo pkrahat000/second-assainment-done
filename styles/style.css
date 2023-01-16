@@ -247,3 +247,127 @@ body{
     margin-bottom: 200px;
 }
 
+@media only screen and (max-width:576px) {
+    .common-width{
+        width:100%;
+    }
+    .common-background-color{
+        padding: 0px;
+    }
+    /*nav section*/
+    .nav{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .nav h3{
+        color: #131313;
+       font-weight: 600;
+        font-size:35px;
+    }
+    .nav a {
+        color: #424242;
+        font-size: 15px;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+
+    /*banner style*/
+    .banner h2{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .banner-img {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 220px;
+    }
+
+    /*article section */
+    .article-section {
+        flex-direction: column;
+    }
+    .article-contant {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .article-img {
+        width: 300px;
+        height: 300px;
+        margin: 0px 0px 20px 0px;
+    }
+    .article-container{
+        text-align: center;
+    }
+
+    /*experiance section*/
+    .experiance {
+        flex-direction: column;
+    }
+    .experiance-img {
+        width: auto;
+        height: 545px;
+    }
+
+    /*some facts section*/
+    .some-facts-icon-contant {
+        flex-direction: column;
+        gap:20px;
+}
+
+/*subscription*/
+.subscription input {
+    color: rgb(233, 60, 60);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 5px;
+    margin-left: -40px;
+}
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .common-width{
+        width:100%;
+    }
+    .common-background-color{
+        padding: 0px;
+    }
+
+
+  /*banner style*/
+    .banner-img {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    /*article section */
+    .article-section {
+        flex-direction: column;
+    }
+    .article-container{
+        text-align: center;
+    }
+    .article-img {
+        width: auto;
+        height: auto;
+    }
+
+
+    /*experiance section*/
+    .experiance {
+        flex-direction: column;
+    }
+    .experiance-img {
+        width: auto;
+        height: 945px;
+    }
+    .common-width {
+        text-align: center;
+    }
+
+
+    /*some facts-*/
+    .some-facts-icon-contant {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px
+    }
+}
